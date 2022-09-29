@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tickets",
+  "info": {
+    "singularName": "ticket",
+    "pluralName": "tickets",
+    "displayName": "ticket",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "videoTItile": {
+      "type": "string",
+      "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "required": true
+    },
+    "videoOverview": {
+      "type": "richtext",
+      "default": "<h1>Coming Soon...</h1>",
+      "required": true
+    },
+    "youtubeVideoLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

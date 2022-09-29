@@ -22,12 +22,12 @@
     },
     "Description": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "Cover": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
